@@ -6,9 +6,9 @@
 
 ## 作品示例
 
-《恋爱回忆录》R6 · 自然过肩 · 30 秒，点击下方播放器观看。
+《恋爱回忆录》· 作者最新指定版本 · 30.26 秒，点击下方播放器观看。此处为保留完整画面与音轨的 720p 在线预览。
 
-https://github.com/user-attachments/assets/5c3b266d-7a6f-4399-947d-6ca8ae0c62cb
+https://github.com/user-attachments/assets/7601b5dd-caea-4b3f-9bd5-68a99bc6b979
 
 **上传人物照片，说出一个想法，让 AI 助手陪你把恋爱、旅行和婚礼回忆做成短片。**
 
