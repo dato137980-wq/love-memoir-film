@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "title": "沿途的回忆",
+  "width": 960,
+  "height": 720,
+  "fps": 24,
+  "fit": "contain",
+  "clips": [
+    {
+      "file": "media/return-look.mp4",
+      "in": 0.5,
+      "frames": 48,
+      "speed": 1,
+      "purpose": "回头确认对方",
+      "note": "避开源片自带切镜"
+    },
+    {
+      "file": "media/shared-moment.mp4",
+      "in": 1,
+      "frames": 72,
+      "speed": 1,
+      "purpose": "共同经历的回应"
+    },
+    {
+      "file": "media/checked-transition-and-ending.mp4",
+      "in": 0,
+      "frames": 120,
+      "speed": 1,
+      "purpose": "外部已审查转场和结尾"
+    }
+  ],
+  "music": {
+    "file": "media/music.wav",
+    "in": 0,
+    "gain_db": 0,
+    "fade_out_seconds": 0,
+    "allow_silence": false
+  }
+}

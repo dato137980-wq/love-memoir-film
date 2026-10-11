@@ -1,0 +1,31 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>雨天回家｜虚构格式示例</title><style>body{background:#f5f2eb;color:#24342f;font:16px/1.8 system-ui;
+max-width:1140px;margin:32px auto;padding:20px}h1{line-height:1.25}
+section{background:#fff;padding:24px;margin:20px 0;border-radius:12px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font:15px/1.8 system-ui}
+button{padding:10px 16px;background:#263e33;color:white;border:0;border-radius:7px;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+figure{margin:0}img{width:100%;height:auto}small{color:#54655c}</style><h1>雨天回家｜虚构格式示例</h1><section><h2>创意</h2><p>等待被看见，最后用回头确认彼此。示例尚未生成，不含真人素材。</p><p>本页是制作方案；各段是否生成、是否审查，以段内状态为准。</p><h3>必须保留</h3><pre>[&quot;等待与回应的关系&quot;, &quot;同一场景服装连续&quot;]</pre><h3>必须排除</h3><pre>[]</pre><h3>素材</h3><pre>[
+  {
+    &quot;id&quot;: &quot;P01&quot;,
+    &quot;file&quot;: &quot;media/person-a.jpg&quot;,
+    &quot;role&quot;: &quot;女孩身份参考；需换成用户实际文件&quot;
+  },
+  {
+    &quot;id&quot;: &quot;P02&quot;,
+    &quot;file&quot;: &quot;media/person-b.jpg&quot;,
+    &quot;role&quot;: &quot;男孩身份参考；需换成用户实际文件&quot;
+  }
+]</pre></section><section><h2>U01 · 屋檐下的等待</h2><p>状态：example_not_generated；时长：6</p><pre>[
+  &quot;P01：女孩身份&quot;,
+  &quot;P02：男孩身份&quot;
+]</pre><button data-copy="prompt-0-prompt_zh">复制prompt_zh</button><pre id="prompt-0-prompt_zh">【内容设定】6秒真人生活片段。雨天普通街角，女孩在屋檐下等伴侣；男孩撑伞到她身旁。表现等到对方时的放松，不添加对白。画幅按实际项目设置。
+【素材分工】使用实际上传的人物A照片锁定女孩面貌，人物B照片锁定男孩面貌，工具中分别绑定正式引用。衣服沿用各自参考图；若照片服装看不全，仅按已确认补全。同一场面不换装。
+【摄影与光声】从街道一侧平视，看清屋檐边界、女孩与来人的方向。自然阴天散射光，皮肤保留纹理，街灯只有微弱暖色，不把路面夸张做成霓虹。机位站定，轻微呼吸感。雨声持续，伞布声接入，无生成背景音乐。
+【连续动作】0—2秒：女孩站在屋檐内靠近边缘，望向画面右侧，手自然放在身侧；雨落在前方，头发和衣服不凭空湿透。2—4秒：男孩从右侧撑伞走近，步伐放缓，停到她旁边，不穿过她的身体。她目光跟随他，嘴角轻轻松开。4—6秒：男孩将伞向两人中间调整一次，伞柄由他的右手自然握住，手腕连接可读；女孩只向伞下挪小半步，两人并肩，最后保持准备一起走出的状态。镜头不突然急推或绕行，伞沿不能盖住整张脸。</pre><button data-copy="prompt-0-prompt_en">复制prompt_en</button><pre id="prompt-0-prompt_en">Example only. Bind the actual uploaded identity references before use. A six-second live-action scene: an adult woman waits beneath a street awning in rain; her adult partner approaches from screen right with an umbrella, slows beside her, and adjusts the umbrella once to shelter both. Match each supplied identity and the confirmed clothing. Eye-level stationary observation from the street side; soft overcast daylight, natural skin texture, continuous rain and a light umbrella-fabric sound; no dialogue or generated music. 0–2s: she looks toward his approach while staying under cover. 2–4s: he arrives and stops beside her; her expression relaxes. 4–6s: his visible right hand holds the handle with a continuous wrist, he shifts the umbrella to the shared center, and she takes half a step beneath it. End with both ready to walk together. No hand overlap tricks, abrupt push-in, orbit, wardrobe change, or umbrella hiding the entire face.</pre></section><script>
+document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',async()=>{
+ const t=document.getElementById(b.dataset.copy).textContent;
+ try{await navigator.clipboard.writeText(t);b.textContent='已复制';}
+ catch(e){const a=document.createElement('textarea');a.value=t;document.body.append(a);
+ a.select();const ok=document.execCommand('copy');a.remove();b.textContent=ok?'已复制':'请手动选择正文复制';}
+}));
+</script></html>

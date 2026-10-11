@@ -1,0 +1,4 @@
+interface:
+  display_name: "恋爱回忆录导演·公开版"
+  short_description: "上传人物图片和想法，设计镜头、制作视频、检查衔接并完成配乐混剪与封面"
+  default_prompt: "使用 $love-memoir-film，根据我上传的人物图片和想法制作一条恋爱回忆录短片，先检查可用工具与素材，再完成能执行的制作流程。"

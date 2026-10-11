@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-11",
+  "skill_structure": "passed",
+  "local_link_count": 16,
+  "utf8_json_and_privacy_scan": "passed",
+  "offline_synthetic_tests": {
+    "count": 8,
+    "passed": 8,
+    "scope": [
+      "real 4-second MP4 rendering with audio",
+      "Chinese, spaces and apostrophe paths",
+      "source duration overrun rejection",
+      "short music rejection",
+      "explicit silence boolean validation",
+      "unsupported transition rejection",
+      "timecoded frame extraction",
+      "HTML escaping and non-overwrite behavior"
+    ]
+  },
+  "environment": {
+    "os": "Windows",
+    "python": "3.12.10",
+    "ffmpeg": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "not_tested": [
+    "other operating systems",
+    "other AI hosts",
+    "new users actual photos or music",
+    "new video model generations",
+    "browser clipboard behavior"
+  ],
+  "no_external_generation_in_this_build": true,
+  "no_private_media_or_credentials_in_package": true
+}
